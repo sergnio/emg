@@ -1,0 +1,162 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+html.skrollr.skrollr-desktop body.stretched.device-md div#wrapper.clearfix header#header.transparent-header.full-header div#header-wrap div.container.clearfix div#logo a.retina-logo img{
+  height: 95px;
+}
+
+ div.feature-box.fbox-effect div.fbox-icon a i{
+	background-color: #171649;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content div.content-wrap div.section.nobottommargin div.container.clearfix  p{
+color: black;
+}
+
+h1{
+ font-family: 'Staatliches';
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl div#wrapper.clearfix section#content div.content-wrap div.container.clearfix div.row.clearfix div.col-xl-5 div.heading-block.topmargin h1{
+	font-size: 42px;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content div.content-wrap div.section.nobottommargin div.container.clearfix div.heading-block.topmargin-lg.center span.divcenter{
+	color: black;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content div.content-wrap div.section.nobottommargin div.section.parallax.dark.nobottommargin.skrollable.skrollable-between{
+	background-color: black;
+}
+.feature-box .fbox-icon i{
+	background-color: #171649;
+}
+
+
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content footer#footer.dark div#copyrights{
+	background-color: white;
+}
+
+
+.button.button-dark:hover {
+    background-color: #2EBBEC;
+}
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content footer#footer.dark div#copyrights div.container.clearfix div.col_half{
+	color: black;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content footer#footer.dark div.container div.footer-widgets-wrap.clearfix div.col_one_third.col_last div.widget.clearfix div.row div.col-lg-6.clearfix a.social-icon.si-dark.si-colored.si-rss.nobottommargin{
+	background-color: #0077B5 !important;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.container.clearfix div.row.bottommargin-sm div.col-lg-4.col-md-6.bottommargin  h3 {
+	color: #171649;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.col_one_third.bottommargin-sm.center img.fadeInLeft.animated{
+	width: 224px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix header#header.transparent-header.full-header div#header-wrap div.container.clearfix div#logo a.standard-logo img{
+  	height: 100px;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap{
+  	padding: 0 !important;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.container.clearfix div.row.clearfix div.col-xl-5 div.heading-block.topmargin h1{
+  	font-size: 27px;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.col_one_third.bottommargin-sm.center img{
+  	max-width: 45%;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.col_two_third.bottommargin-sm.col_last div.heading-block.topmargin-sm h3{
+  	text-align: center;
+  	margin: 5px;
+  }
+  p {
+  	margin: 5px;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.col_two_third.bottommargin-sm.col_last p{
+  	text-align: justify;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.col_two_third.bottommargin-sm.col_last a.button.button-border.button-dark.button-rounded.button-large.noleftmargin.topmargin-sm{
+  width: 100%;
+  text-align: center;
+  background-color: #2EBBEC;
+  border-color: #0077B5;
+  }
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.container.clearfix p{
+  	color: black;
+  }
+
+  html.skrollr.skrollr-desktop body.stretched.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.container.clearfix{
+  	padding-right: 5px !important;
+  	padding-left: 23px !important;
+  }
+
+  html.skrollr.skrollr-desktop body.stretched.gototop-active.device-xs div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin div.section.parallax.dark.nobottommargin.skrollable.skrollable-between div.heading-block.center{
+  	margin-bottom: 0;
+  }
+ div.testi-content p{
+  	font-size: 15px;
+  }
+  html.skrollr.skrollr-desktop body.stretched.gototop-active.device-xs div#wrapper.clearfix section#content footer#footer.dark div.container div.footer-widgets-wrap.clearfix div.col_one_third.col_last div.widget.clearfix div.row div.col-lg-6.clearfix a.social-icon.si-dark.si-colored.si-rss.nobottommargin{
+  	background-color: #0077B5 !important
+  }
+
+
+}
+
+
+
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content section#section-about.page-section div.content-wrap div.section.nobottommargin{
+  padding:0;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content section#section-about.page-section div.section.nobottommargin{
+  padding: 0;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl.gototop-active div#wrapper.clearfix section#content section#section-about.page-section div.section.nobottommargin div.content-wrap{
+  padding-bottom: 0;
+}
+
+.one-page-menu li{
+  font-size: x-large;
+}
+
+#primary-menu ul li > a{
+  font-size: 15px;
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-sm div#wrapper.clearfix header#header.transparent-header.full-header div#header-wrap div.container.clearfix div#logo a.retina-logo img{
+  height: 132px;
+}
+
+
+.slider-caption p{
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+
+html.skrollr.skrollr-desktop body.stretched.device-xl div#wrapper.clearfix section#slider.slider-element.slider-parallax.swiper_wrapper.full-screen.clearfix.slider-parallax-visible div.slider-parallax-inner div.swiper-container.swiper-parent.swiper-container-horizontal div.swiper-wrapper div.swiper-slide.dark.swiper-slide-active div.container.clearfix div.slider-caption.slider-caption-center h2.fadeInUp.animated{
+text-shadow: 6px 6px 6px rgba(0,0,0,0.55);
+}
+
+html.skrollr.skrollr-desktop body.stretched.device-xl div#wrapper.clearfix section#slider.slider-element.slider-parallax.swiper_wrapper.full-screen.clearfix.slider-parallax-visible div.slider-parallax-inner div.swiper-container.swiper-parent.swiper-container-horizontal div.swiper-wrapper div.swiper-slide.dark.swiper-slide-active div.container.clearfix div.slider-caption.slider-caption-center h2.fadeInUp.animated{
+  font-size: 5rem;
+}
+
