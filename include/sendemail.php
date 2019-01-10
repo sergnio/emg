@@ -8,8 +8,12 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email1' => 'sam@elitemarketinggroup.com', // Your Email Address
+				'name1' => 'Sam Morrow', // Your Name
+				'email2' => 'office@elitemarketinggroup.com', // Your Name
+				'name2' => 'Office', // Your Name
+				'email3' => 'sergnio@gmail.com', // Your Name
+				'name3' => 'Sergio', // Your Name
 			);
 
 // Form Processing Messages
@@ -42,7 +46,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$mail->SetFrom( $email , $name );
 			$mail->AddReplyTo( $email , $name );
 			foreach( $toemails as $toemail ) {
-				$mail->AddAddress( $toemail['email'] , $toemail['name'] );
+				$mail->AddAddress( $toemail['email1'] , $toemail['name1'] );
+				$mail->AddAddress( $toemail['email2'] , $toemail['name2'] );
+				$mail->AddAddress( $toemail['email3'] , $toemail['name3'] );
 			}
 			$mail->Subject = $subject;
 
