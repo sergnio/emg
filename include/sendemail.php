@@ -12,8 +12,6 @@ $toemails[] = array(
 				'name1' => 'Sam Morrow', // Your Name
 				'email2' => 'office@elitemarketinggroup.com', // Your Name
 				'name2' => 'Office', // Your Name
-				'email3' => 'sergnio@gmail.com', // Your Name
-				'name3' => 'Sergio', // Your Name
 			);
 
 // Form Processing Messages
@@ -25,7 +23,9 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 $mail = new PHPMailer();
 
 // If you intend you use SMTP, add your SMTP Code after this Line
-
+$headers  = "From: noreply <no-reply@elitemarketinggroup.com>" . "\r\n";
+$headers .= 'MIME-Version: 1.0' . "\r\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	if( $_POST['template-contactform-email'] != '' ) {
@@ -43,7 +43,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 		if( $botcheck == '' ) {
 
-			$mail->SetFrom( $email , $name );
+			$mail->SetFrom( "no-reply@elitemarketinggroup.com" , "no-reply" );
 			$mail->AddReplyTo( $email , $name );
 			foreach( $toemails as $toemail ) {
 				$mail->AddAddress( $toemail['email1'] , $toemail['name1'] );
