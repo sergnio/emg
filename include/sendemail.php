@@ -48,7 +48,6 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			foreach( $toemails as $toemail ) {
 				$mail->AddAddress( $toemail['email1'] , $toemail['name1'] );
 				$mail->AddAddress( $toemail['email2'] , $toemail['name2'] );
-				$mail->AddAddress( $toemail['email3'] , $toemail['name3'] );
 			}
 			$mail->Subject = $subject;
 
