@@ -55,11 +55,12 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$email = isset($email) ? "Email: $email<br><br>" : '';
 			$phone = isset($phone) ? "Phone: $phone<br><br>" : '';
 			$service = isset($service) ? "Service: $service<br><br>" : '';
+            $subject = isset($subject) ? "Subject: $subject<br><br>" : '';
 			$message = isset($message) ? "Message: $message<br><br>" : '';
 
 			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
 
-			$body = "$name $email $phone $service $message $referrer";
+			$body = "$name $email $phone $subject $message $referrer";
 
 			// Runs only when File Field is present in the Contact Form
 			if ( isset( $_FILES['template-contactform-file'] ) && $_FILES['template-contactform-file']['error'] == UPLOAD_ERR_OK ) {
